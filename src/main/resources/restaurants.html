@@ -1,0 +1,37 @@
+<html>
+    <head>
+
+        <script type="text/javascript" src="client.js"></script>
+    </head>
+    <body onload="apiclient.getRestaurants()">
+    <center>
+        <div>
+        <h1>
+            RESTAURANTS FROM DATABASE
+        </h1>
+
+        <div>
+            <table id="restaurants">
+
+            </table>
+
+        </div >
+            <form onsubmit="this.reset()">
+                <label for="name"> RestaurantName: </label>
+                <input required type="text" class="form-control" placeholder="Name" id="name" style="margin-bottom: 5px;width: 20%">
+                <label for="borough"> Borough: </label>
+                <input required type="text" class="form-control" placeholder="Borough" id="borough" style="margin-bottom: 5px;width: 20%">
+                <label for="cuisine"> Cuisine: </label>
+                <input required type="text" class="form-control" placeholder="Cuisine" id="cuisine" style="margin-bottom: 5px;width: 20%">
+                <label for="restaurantid"> RestaurantId: </label>
+                <input required type="number" class="form-control" placeholder="RestaurantId" id="restaurantid" style="margin-bottom: 5px;width: 20%">
+                <input type="button" value="Add Restaurant" onclick="apiclient.addRestaurant()">
+            </form>
+    </div>
+
+    </center>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"> </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    </body>
+</html>

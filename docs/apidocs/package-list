@@ -1,0 +1,10 @@
+edu.eci.arep.lab3.Browser
+edu.eci.arep.lab3.Challenge1
+edu.eci.arep.lab3.Challenge2
+edu.eci.arep.lab3.Challenge2.HTTP
+edu.eci.arep.lab3.Challenge2.Model
+edu.eci.arep.lab3.Challenge2.Persistence
+edu.eci.arep.lab3.Challenge2.Service
+edu.eci.arep.lab3.Challenge2.Service.impl
+edu.eci.arep.lab3.Server
+edu.eci.arep.lab3.URL
